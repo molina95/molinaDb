@@ -55,3 +55,22 @@ ORDER BY  Cost DESC ;
     SELECT PartID, Description, Cost
         FROM Part
 ORDER BY  Cost;
+
+--Let's say we want to get a report of the parts ordered by cost in descending order
+--We would write a Select statement like this one.
+
+    SELECT Description, Cost
+        FROM Part
+ORDER BY Cost DESC;
+--Should give the samer result.
+    SELECT Description, Cost
+        FROM  Part
+ORDER BY Cost DESC, PartID ASC;
+
+--The previous query will return the values ordered by Cost, but it will show
+-- the Parts with the same price order by insertion in the table, if we want to
+-- order our result set further we need to order within the first sort we do this
+-- by adding a secondary sort to our primary sort, like this.
+    SELECT Description, Cost
+        FROM  Part
+ORDER BY Cost DESC, Description ASC;
