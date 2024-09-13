@@ -1,5 +1,7 @@
 Use SlickShop;
 
+-- We are retrieving 2 Columns from a table.
+
 SELECT Description, Cost
     FROM Part;
 
