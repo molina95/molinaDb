@@ -1,2 +1,3 @@
 Use SlickShop;
-SELECT description FROM Part;
+SELECT description
+FROM Part;
