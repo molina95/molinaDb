@@ -1,0 +1,10 @@
+TABLE 2.1 SQL COMPARISON OPERATORS
+Operator Description Example Meaning
+IS Equal (used with NULL) City IS NULL Where the City column contains a NULL
+IS NOT Not equal (used with NULL) City IS NOT NULL Where the City column does not contain a NULL
+= Equal City = 'Chicago' Where the City column contains 'Chicago'
+<> Not equal City <> 'Chicago' Where the City column does not contain 'Chicago'
+< Less thanQuantity < 5 Where the Quantity column contains a value less than 5
+> Greater than Quantity > 5 Where the Quantity column contains a value greater than 5
+<= Less than or equal to Quantity <= 5 Where the Quantity column contains a value less than or equal to 5
+>= Greater than or equal to Quantity >= 5 Where the Quantity column contains a value greater than or equal to 5
